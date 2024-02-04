@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #delet run.sh 
 rm -rf run.sh 
 
