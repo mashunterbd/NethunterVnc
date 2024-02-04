@@ -1,6 +1,11 @@
 # NethunterVnc
 Run Kali Nethunter on Your Localhost or Same Wifi in browser 
 
+# automatic Install
+```
+wget https://raw.githubusercontent.com/masshuvo/NethunterVnc/master/run.sh | chmod +x run.sh | ./run.sh
+```
+
 # install tightvncserver
 ```
 apt install tightvncserver -y
