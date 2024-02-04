@@ -6,8 +6,14 @@ apt install tightvncserver -y
 # Clone the NethunterVnc repository
 git clone https://github.com/masshuvo/NethunterVnc.git
 
+# start File permission
+cd NethunterVnc 
+
+# chmod 
+chmod +x start.sh
+
 # Change directory to utils
-cd NethunterVnc/utils
+cd utils
 
 # Set VNC authentication password
 vncpasswd
