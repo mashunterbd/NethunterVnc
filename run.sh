@@ -15,5 +15,8 @@ vncpasswd
 # Give permissions
 chmod +x *
 
+#Run tightvncserver
+tightvncserver
+
 # Run novnc_proxy script
 ./novnc_proxy --vnc localhost:5901
