@@ -7,3 +7,25 @@ apt install tightvncserver -y
 ```
 
 # Clone this repo: 
+```
+
+git clone https://github.com/masshuvo/NethunterVnc.git
+```
+
+```
+cd utils
+```
+# Set VNC authentication password { six digit } 
+```
+vncpasswd
+```
+
+# Give Permission
+```
+chmod +x *
+```
+# Run 
+```
+./utils/novnc_proxy --vnc localhost:5901
+```
+
