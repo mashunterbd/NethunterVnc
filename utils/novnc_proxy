@@ -229,6 +229,12 @@ else
     echo -e "    https://${HOST}:${PORT}/vnc.html?host=${HOST}&port=${PORT}\n"
 fi
 
-echo -e "Press Ctrl-C to exit\n\n"
+echo -e "Your VNC Start Done"
+echo -e "vistit this URL TO acess"
+echo "#################################"
+echo "# http://localhost:6080/vnc.html #"
+echo "#################################"
+
+echo -e "Press Ctrl+C to exit\n\n"
 
 wait ${proxy_pid}
